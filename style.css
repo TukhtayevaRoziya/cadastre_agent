@@ -187,7 +187,7 @@ margin-bottom: 3rem;
 }
 
 .main_footer{
-    padding: 50px 210px 80px;
+    padding: 50px 160px 40px;
     background-color: #F6F8F7;
     display: flex;
     justify-content: space-between;
@@ -195,7 +195,7 @@ margin-bottom: 3rem;
 .main_footer_block1 div{
     display: flex;
     align-items: flex-start;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .main_footer_block1 div h1{
@@ -217,8 +217,66 @@ margin-bottom: 3rem;
 }
 
 .main_footer_block2{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
 width: 40%;
+
 }
-.main_block2 h2{
+.main_footer_block2 h1{
     color: #052350;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.main_footer_block2 input{
+    border: 1px solid #E0E3EB;
+    border-radius: 4px;
+    font-size: 18px;
+    padding: 8px 10px;
+    outline: none;
+}
+
+.main_footer_block2 button{
+    outline: none;
+    border: none;
+    background-color: #FCB210;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 18px;
+    padding: 8px 30px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.main_footer_block2 h2{
+    color: #052350;
+    letter-spacing: .5px;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 80px;
+    text-transform: uppercase;
+}
+
+.main_footer_block2 svg{
+    fill: #052350;
+    width: 40px;
+    height: 40px;
+cursor: pointer;
+margin-top: 10px;
+}
+
+.footer{
+    background-color: #052350;
+    padding: 25px 150px;
+}
+
+.footer h1{
+    margin: 0;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
 }
