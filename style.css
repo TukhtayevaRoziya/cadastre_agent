@@ -567,6 +567,9 @@ align-items: center;
 
 #customers tr:hover {background-color: #ddd;}
 
+#customers a{
+  color: #0D6EFD;
+}
 #customers th {
   padding-top: 12px;
   padding-bottom: 12px;
