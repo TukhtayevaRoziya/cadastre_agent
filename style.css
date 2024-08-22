@@ -1,10 +1,21 @@
+::-webkit-scrollbar {
+  height: 10px;
+  width: 8px;
+  background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #e1e6e7, #052350);
+  border-radius: 5px;
+}
+
 body {
   margin: 0;
   font-family: sans-serif;
 }
 
 .header {
-  padding: 10px 112px;
+  padding: 10px 100px;
   border-bottom: 2px solid #fcb210;
   display: flex;
   justify-content: space-between;
@@ -54,25 +65,6 @@ body {
   color: #dc3545;
 }
 
-.breadcrumb {
-  display: flex;
-  align-items: center;
-  padding: 30px 112px;
-}
-
-.breadcrumb svg {
-  width: 20px;
-  height: 20px;
-}
-
-.breadcrumb h1 {
-  font-family: sans-serif;
-  color: #6c757d;
-  font-size: 16px;
-  font-weight: 400;
-  margin: 0 0 0 5px;
-}
-
 .img_block {
   background-image: url(./assets/home_bg.jpg);
   background-repeat: no-repeat;
@@ -84,12 +76,13 @@ body {
   justify-content: center;
   align-items: center;
   padding-bottom: 40px;
+  margin-top: 3rem;
 }
 
 .img_block_box_b {
   display: flex;
   justify-content: space-between;
-  width: calc(100% - 420px);
+  width: calc(100% - 200px);
   margin: 0 auto;
 }
 
@@ -100,6 +93,7 @@ body {
   color: #525b7a;
   padding: 20px;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 .img_block h1 {
@@ -134,7 +128,7 @@ body {
 .main {
   display: flex;
   justify-content: space-between;
-  padding: 100px 210px 40px;
+  padding: 100px 100px 40px;
   align-items: center;
 }
 
@@ -185,7 +179,7 @@ body {
 }
 
 .main_footer {
-  padding: 50px 160px 40px;
+  padding: 50px 100px 40px;
   background-color: #f6f8f7;
   display: flex;
   justify-content: space-between;
@@ -268,7 +262,7 @@ body {
 
 .my_footer {
   background-color: #052350;
-  padding: 25px 150px;
+  padding: 25px 100px;
 }
 
 .my_footer h1 {
@@ -276,4 +270,334 @@ body {
   color: white;
   font-size: 16px;
   font-weight: 400;
+}
+
+.body {
+  margin-left: 300px;
+}
+
+/* ------------------------ */
+
+/* Fixed sidenav, full height */
+.sidenav {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a,
+.dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover,
+.dropdown-btn:hover {
+  color: #4f4f4f;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: #332d2d0d;
+  color: #4f4f4f;
+}
+
+.dropdown-container .dropdown-btn {
+  padding-left: 20px;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #fff;
+  padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+/* Some media queries for responsiveness */
+.sidenav {
+  padding-top: 15px;
+}
+.sidenav a {
+  font-size: 15px;
+  width: 90%;
+}
+
+/* ----------------basic_spatial_data---------------- */
+.basic_spatial_data {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 3rem;
+}
+.lowGas_title,
+.basic_spatial_data__title {
+  color: #052350;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+.basic_spatial_data_block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.basic_spatial_data_block__box {
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  margin-bottom: 1rem;
+}
+
+.basic_spatial_data_block__box div{
+  border-bottom: 1px solid #D2D2D2;
+  border-left: 1px solid #D2D2D2;
+  border-right: 1px solid #D2D2D2;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 16px;
+}
+
+.basic_spatial_data_block__box h1{
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+  color: #212529;
+  line-height: 24px;
+}
+
+.basic_spatial_data_block__box p{
+  color: #6C757D;
+
+}
+
+.basic_spatial_data_block__box h2,
+.basic_spatial_data_block__box p{
+  font-size: 16px;
+  font-weight: 400;
+  margin: 8px 0 0;
+}
+
+.basic_spatial_data_block__box h2{
+  line-height: 20px;
+  margin-bottom: 1rem;
+  color: #212529;
+
+}
+
+.basic_spatial_data_block__box button{
+  background-color: #0D6EFD;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.state_border{
+  padding: 1rem 100px;
+  background-color: #F6F8F7;
+}
+
+.state_border__title{
+  text-align: center;
+  color: #292E3D;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.state_border_block{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.state_border_block__box{
+  background-color: white;
+  width: 30%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 20px;
+  box-sizing: border-box;
+  margin-bottom: 2rem;
+  text-decoration: none;
+}
+
+.state_border_block__box span{
+  background-color: #2947A9;
+  height: 2px;
+  width: 60px;
+  margin-bottom: 20px;
+}
+
+.state_border_block__box h1{
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #052350;
+}
+
+.state_border_block__box p{
+  color: #6C757D;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.state_border_block__box_blue{
+  background-color: #052350;
+  color: white;
+}
+.state_border_block__box_blue p,
+.state_border_block__box_blue h1{
+  color: white;
+}
+
+.state_border_block__box_blue span{
+  background-color: #E0E3EB;
+}
+
+/* ------------unified system */
+.unifiedSystem_block{
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.unifiedSystem_block_box{
+  width: 48%;
+  margin-bottom: 2rem;
+  text-align: center;
+  border: 1px solid #D2D2D2;
+  border-radius: 5px;
+  box-sizing: border-box;
+
+}
+.unifiedSystem_block_box h3,
+.unifiedSystem_block_box h2{
+  background-color: #F7F7F7;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 8px;
+  line-height: 24px;
+
+
+}
+
+.unifiedSystem_block_box h2{
+  color: #212529;
+  border-bottom: 1px solid #D2D2D2;
+
+}
+
+.unifiedSystem_block_box h3{
+  color: #6C757D;
+  border-top: 1px solid #D2D2D2;
+
+}
+
+.unifiedSystem_block_box h1{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+/* --------------lowGas_header-------------- */
+.lowGas{
+  padding: 50px 100px;
+}
+.lowGas_header{
+display: flex;
+align-items: center;
+}
+
+.lowGas_header button{
+  background-color: #0D6EFD;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  padding: 6px 12px;
+  margin-left: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #fff;
+  color: #212529;
+}
+
+.lowGas_table_title{
+  font-weight: 600;
+  font-size: 18px;
+  color: #292E3D;
+  width: 100%;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.lowGas_table_2#customers tr:nth-child(odd){
+  background-color: #f2f2f2;
+}
+
+.lowGas_table_2#customers tr:nth-child(even){
+  background-color: white;
+}
+
+.lowGas_table_2#customers tr:nth-child(odd) td:last-child{
+color: #1583F1;
+text-decoration: underline;
+}
+
+.lowGas_table_2#customers a{
+color: #1583F1;
+
 }
