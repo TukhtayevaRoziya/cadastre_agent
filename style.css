@@ -263,6 +263,8 @@ body {
 .my_footer {
   background-color: #052350;
   padding: 25px 100px;
+  text-align: center;
+
 }
 
 .my_footer h1 {
@@ -313,7 +315,7 @@ body {
   color: #4f4f4f;
 }
 
-.newClass{
+.newClass {
   margin-top: 0 !important;
 }
 
@@ -344,7 +346,6 @@ body {
 .sidenav {
   padding-top: 15px;
   margin-top: 105px;
-
 }
 .sidenav a {
   font-size: 15px;
@@ -378,16 +379,16 @@ body {
   margin-bottom: 1rem;
 }
 
-.basic_spatial_data_block__box div{
-  border-bottom: 1px solid #D2D2D2;
-  border-left: 1px solid #D2D2D2;
-  border-right: 1px solid #D2D2D2;
+.basic_spatial_data_block__box div {
+  border-bottom: 1px solid #d2d2d2;
+  border-left: 1px solid #d2d2d2;
+  border-right: 1px solid #d2d2d2;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   padding: 16px;
 }
 
-.basic_spatial_data_block__box h1{
+.basic_spatial_data_block__box h1 {
   margin: 0;
   font-size: 20px;
   font-weight: 400;
@@ -395,27 +396,25 @@ body {
   line-height: 24px;
 }
 
-.basic_spatial_data_block__box p{
-  color: #6C757D;
-
+.basic_spatial_data_block__box p {
+  color: #6c757d;
 }
 
 .basic_spatial_data_block__box h2,
-.basic_spatial_data_block__box p{
+.basic_spatial_data_block__box p {
   font-size: 16px;
   font-weight: 400;
   margin: 8px 0 0;
 }
 
-.basic_spatial_data_block__box h2{
+.basic_spatial_data_block__box h2 {
   line-height: 20px;
   margin-bottom: 1rem;
   color: #212529;
-
 }
 
-.basic_spatial_data_block__box button{
-  background-color: #0D6EFD;
+.basic_spatial_data_block__box button {
+  background-color: #0d6efd;
   color: white;
   outline: none;
   border: none;
@@ -424,25 +423,25 @@ body {
   cursor: pointer;
 }
 
-.state_border{
+.state_border {
   padding: 1rem 100px;
-  background-color: #F6F8F7;
+  background-color: #f6f8f7;
 }
 
-.state_border__title{
+.state_border__title {
   text-align: center;
-  color: #292E3D;
+  color: #292e3d;
   font-size: 36px;
   font-weight: 700;
 }
 
-.state_border_block{
+.state_border_block {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.state_border_block__box{
+.state_border_block__box {
   background-color: white;
   width: 30%;
   border-radius: 5px;
@@ -456,97 +455,92 @@ body {
   text-decoration: none;
 }
 
-.state_border_block__box span{
-  background-color: #2947A9;
+.state_border_block__box span {
+  background-color: #2947a9;
   height: 2px;
   width: 60px;
   margin-bottom: 20px;
 }
 
-.state_border_block__box h1{
+.state_border_block__box h1 {
   margin: 0;
   font-size: 20px;
   font-weight: 600;
   color: #052350;
 }
 
-.state_border_block__box p{
-  color: #6C757D;
+.state_border_block__box p {
+  color: #6c757d;
   font-size: 16px;
   font-weight: 400;
   margin-top: 20px;
 }
 
-.state_border_block__box_blue{
+.state_border_block__box_blue {
   background-color: #052350;
   color: white;
 }
 .state_border_block__box_blue p,
-.state_border_block__box_blue h1{
+.state_border_block__box_blue h1 {
   color: white;
 }
 
-.state_border_block__box_blue span{
-  background-color: #E0E3EB;
+.state_border_block__box_blue span {
+  background-color: #e0e3eb;
 }
 
 /* ------------unified system */
-.unifiedSystem_block{
+.unifiedSystem_block {
   margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.unifiedSystem_block_box{
+.unifiedSystem_block_box {
   width: 48%;
   margin-bottom: 2rem;
   text-align: center;
-  border: 1px solid #D2D2D2;
+  border: 1px solid #d2d2d2;
   border-radius: 5px;
   box-sizing: border-box;
-
 }
 .unifiedSystem_block_box h3,
-.unifiedSystem_block_box h2{
-  background-color: #F7F7F7;
+.unifiedSystem_block_box h2 {
+  background-color: #f7f7f7;
   margin: 0;
   font-size: 16px;
   font-weight: 400;
   padding: 8px;
   line-height: 24px;
-
-
 }
 
-.unifiedSystem_block_box h2{
+.unifiedSystem_block_box h2 {
   color: #212529;
-  border-bottom: 1px solid #D2D2D2;
-
+  border-bottom: 1px solid #d2d2d2;
 }
 
-.unifiedSystem_block_box h3{
-  color: #6C757D;
-  border-top: 1px solid #D2D2D2;
-
+.unifiedSystem_block_box h3 {
+  color: #6c757d;
+  border-top: 1px solid #d2d2d2;
 }
 
-.unifiedSystem_block_box h1{
+.unifiedSystem_block_box h1 {
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
 }
 
 /* --------------lowGas_header-------------- */
-.lowGas{
+.lowGas {
   padding: 50px 100px;
 }
-.lowGas_header{
-display: flex;
-align-items: center;
+.lowGas_header {
+  display: flex;
+  align-items: center;
 }
 
-.lowGas_header button{
-  background-color: #0D6EFD;
+.lowGas_header button {
+  background-color: #0d6efd;
   border: none;
   outline: none;
   cursor: pointer;
@@ -565,16 +559,21 @@ align-items: center;
   width: 100%;
 }
 
-#customers td, #customers th {
+#customers td,
+#customers th {
   padding: 8px;
 }
 
-#customers tr:nth-child(even){background-color: #f2f2f2;}
+#customers tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
 
-#customers tr:hover {background-color: #ddd;}
+#customers tr:hover {
+  background-color: #ddd;
+}
 
-#customers a{
-  color: #0D6EFD;
+#customers a {
+  color: #0d6efd;
 }
 #customers th {
   padding-top: 12px;
@@ -584,29 +583,50 @@ align-items: center;
   color: #212529;
 }
 
-.lowGas_table_title{
+.lowGas_table_title {
   font-weight: 600;
   font-size: 18px;
-  color: #292E3D;
+  color: #292e3d;
   width: 100%;
   text-align: center;
   margin: 30px 0;
 }
 
-.lowGas_table_2#customers tr:nth-child(odd){
+.lowGas_table_2#customers tr:nth-child(odd) {
   background-color: #f2f2f2;
 }
 
-.lowGas_table_2#customers tr:nth-child(even){
+.lowGas_table_2#customers tr:nth-child(even) {
   background-color: white;
 }
 
-.lowGas_table_2#customers tr:nth-child(odd) td:last-child{
-color: #1583F1;
-text-decoration: underline;
+.lowGas_table_2#customers tr:nth-child(odd) td:last-child {
+  color: #1583f1;
+  text-decoration: underline;
 }
 
-.lowGas_table_2#customers a{
-color: #1583F1;
+.lowGas_table_2#customers a {
+  color: #1583f1;
+}
 
+@media screen and (max-width: 1000px) {
+  .header {
+    padding: 10px 30px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .logo h1 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .btn_group input,
+  .btn_group_1 {
+    display: none;
+  }
+  .logo img{
+    width: 100px;
+  }
 }
