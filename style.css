@@ -313,6 +313,10 @@ body {
   color: #4f4f4f;
 }
 
+.newClass{
+  margin-top: 0 !important;
+}
+
 /* Add an active class to the active dropdown button */
 .active {
   background-color: #332d2d0d;
@@ -339,6 +343,8 @@ body {
 /* Some media queries for responsiveness */
 .sidenav {
   padding-top: 15px;
+  margin-top: 105px;
+
 }
 .sidenav a {
   font-size: 15px;
