@@ -5,17 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kadastr Agent</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      charset="utf-8"
+    ></script>
   </head>
   <body>
     <div class="sidenav" id="dynamic">
-      <a href="#">Bosh Sahifa</a>
-      <button class="dropdown-btn">Bazaviy f.m. 
+      <a href="#"  style="border-bottom: 2px solid #332d2db9;">Bosh Sahifa</a>
+      <button class="dropdown-btn">
+        Bazaviy f.m.
         <i class="fa fa-caret-down"></i>
       </button>
       <div class="dropdown-container">
-        <button class="dropdown-btn">Geodeziya, nivelir va gravimetriya tarmoqlari punktlari
+        <button class="dropdown-btn">
+          Geodeziya, nivelir va gravimetriya tarmoqlari punktlari
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+          <a href="./other_pages/basic_spatial_data.html">Ma'lumotlar</a>
+          <a href="./other_pages/stateBorder.html">Mintaqa chegaralari</a>
+          <a href="./other_pages/lowGas.html">Past bosimli gaz quvurlari
+          </a>
+          <a href="./other_pages/versionBelongLayer.html"
+          >Arxiv
+        </a>
+        </div>
+        <button class="dropdown-btn">
+          O’zbekiston Respublikasi Davlat chegarasi, ma’muriy-hududiy
+          birliklarning chegaralari
           <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-container">
@@ -23,15 +45,8 @@
           <a href="#">Tuman chegaralari</a>
           <a href="#">Others</a>
         </div>
-        <button class="dropdown-btn">O’zbekiston Respublikasi Davlat chegarasi, ma’muriy-hududiy birliklarning chegaralari
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-container">
-          <a href="#">Mintaqa chegaralari</a>
-          <a href="#">Tuman chegaralari</a>
-          <a href="#">Others</a>
-        </div>
-        <button class="dropdown-btn">Gidrografik obyektlar va gidrotexnika inshootlari
+        <button class="dropdown-btn">
+          Gidrografik obyektlar va gidrotexnika inshootlari
           <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-container">
@@ -40,20 +55,24 @@
           <a href="#">Others</a>
         </div>
       </div>
-   
-      <button class="dropdown-btn">Sohaga oid f.m.
+
+      <button class="dropdown-btn">
+        Sohaga oid f.m.
         <i class="fa fa-caret-down"></i>
       </button>
       <div class="dropdown-container">
-        <button class="dropdown-btn">Davlat kadastrlari yagona tizimi
+        <button class="dropdown-btn">
+          Davlat kadastrlari yagona tizimi
           <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-container">
-          <button class="dropdown-btn">Energetika obyektlari davlat kadastri
+          <button class="dropdown-btn">
+            Energetika obyektlari davlat kadastri
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-container">
-            <button class="dropdown-btn">Transport quvurlari davlat kadastri
+            <button class="dropdown-btn">
+              Transport quvurlari davlat kadastri
               <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-container">
@@ -63,7 +82,9 @@
             </div>
           </div>
         </div>
-        <button class="dropdown-btn">O’zbekiston Respublikasi Davlat chegarasi, ma’muriy-hududiy birliklarning chegaralari
+        <button class="dropdown-btn">
+          O’zbekiston Respublikasi Davlat chegarasi, ma’muriy-hududiy
+          birliklarning chegaralari
           <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-container">
@@ -71,7 +92,8 @@
           <a href="#">Tuman chegaralari</a>
           <a href="#">Others</a>
         </div>
-        <button class="dropdown-btn">Gidrografik obyektlar va gidrotexnika inshootlari
+        <button class="dropdown-btn">
+          Gidrografik obyektlar va gidrotexnika inshootlari
           <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-container">
@@ -81,168 +103,167 @@
         </div>
       </div>
       <a href="#">Aholining taqsimlanishi — demografiyaga oid ma’lumotlar</a>
-      <a href="#">Geologiya (zonalashtirish, yer qatlamlari va boshqa ma’lumotlar)</a>
+      <a href="#"
+        >Geologiya (zonalashtirish, yer qatlamlari va boshqa ma’lumotlar)</a
+      >
+    </div>
+    <div class="header">
+      <div class="logo">
+        <img src="./assets/logo.png" alt="" />
+        <h1>Bosh sahifa</h1>
       </div>
-      <div class="header">
-        <div class="logo">
-          <img src="./assets/logo.png" alt="" />
-          <h1>Bosh sahifa</h1>
-        </div>
-        <div class="btn_group">
-          <input type="text" placeholder="..." />
-          <button class="btn_group_1">Qidirish</button>
-          <button>Chiqish</button>
-        </div>
+      <div class="btn_group">
+        <input type="text" placeholder="..." />
+        <button class="btn_group_1">Qidirish</button>
+        <button>Chiqish</button>
       </div>
-      <div class="body">
-
-
-  
-    <div class="img_block"> 
- 
-  <h1>Fazoviy ma’lumotlar</h1>
-      <div class="img_block_box_b">
-        <a href="other_pages/basic_spatial_data.html" class="img_block_box">
-          <svg
-            clip-rule="evenodd"
-            fill-rule="evenodd"
-            stroke-linejoin="round"
-            stroke-miterlimit="2"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+    </div>
+    <div class="body">
+      <div class="img_block">
+        <h1>Fazoviy ma’lumotlar</h1>
+        <div class="img_block_box_b">
+          <a href="other_pages/basic_spatial_data.html" class="img_block_box">
+            <svg
+              clip-rule="evenodd"
+              fill-rule="evenodd"
+              stroke-linejoin="round"
+              stroke-miterlimit="2"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m2.394 15.759s7.554 4.246 9.09 5.109c.165.093.333.132.492.132.178 0 .344-.049.484-.127 1.546-.863 9.155-5.113 9.155-5.113.246-.138.385-.393.385-.656 0-.566-.614-.934-1.116-.654 0 0-7.052 3.958-8.539 4.77-.211.115-.444.161-.722.006-1.649-.928-8.494-4.775-8.494-4.775-.502-.282-1.117.085-1.117.653 0 .262.137.517.382.655zm0-3.113s7.554 4.246 9.09 5.109c.165.093.333.132.492.132.178 0 .344-.049.484-.127 1.546-.863 9.155-5.113 9.155-5.113.246-.138.385-.393.385-.656 0-.566-.614-.934-1.116-.654 0 0-7.052 3.958-8.539 4.77-.211.115-.444.161-.722.006-1.649-.928-8.494-4.775-8.494-4.775-.502-.282-1.117.085-1.117.653 0 .262.137.517.382.655zm10.271-9.455c-.246-.128-.471-.191-.692-.191-.223 0-.443.065-.675.191l-8.884 5.005c-.276.183-.414.444-.414.698 0 .256.139.505.414.664l8.884 5.006c.221.133.447.203.678.203.223 0 .452-.065.689-.203l8.884-5.006c.295-.166.451-.421.451-.68 0-.25-.145-.503-.451-.682z"
+                fill-rule="nonzero"
+              />
+            </svg>
+            <h2>Bazaviy fazoviy ma'lumotlar</h2>
+            <p>Bazaviy fazoviy Ma’lumotlar haqida qisqacha ta’rif beriladi.</p>
+          </a>
+          <a
+            href="other_pages/spatial_information_about_field.html"
+            class="img_block_box"
           >
-            <path
-              d="m2.394 15.759s7.554 4.246 9.09 5.109c.165.093.333.132.492.132.178 0 .344-.049.484-.127 1.546-.863 9.155-5.113 9.155-5.113.246-.138.385-.393.385-.656 0-.566-.614-.934-1.116-.654 0 0-7.052 3.958-8.539 4.77-.211.115-.444.161-.722.006-1.649-.928-8.494-4.775-8.494-4.775-.502-.282-1.117.085-1.117.653 0 .262.137.517.382.655zm0-3.113s7.554 4.246 9.09 5.109c.165.093.333.132.492.132.178 0 .344-.049.484-.127 1.546-.863 9.155-5.113 9.155-5.113.246-.138.385-.393.385-.656 0-.566-.614-.934-1.116-.654 0 0-7.052 3.958-8.539 4.77-.211.115-.444.161-.722.006-1.649-.928-8.494-4.775-8.494-4.775-.502-.282-1.117.085-1.117.653 0 .262.137.517.382.655zm10.271-9.455c-.246-.128-.471-.191-.692-.191-.223 0-.443.065-.675.191l-8.884 5.005c-.276.183-.414.444-.414.698 0 .256.139.505.414.664l8.884 5.006c.221.133.447.203.678.203.223 0 .452-.065.689-.203l8.884-5.006c.295-.166.451-.421.451-.68 0-.25-.145-.503-.451-.682z"
-              fill-rule="nonzero"
-            />
-          </svg>
-          <h2>Bazaviy fazoviy ma'lumotlar</h2>
-          <p>Bazaviy fazoviy Ma’lumotlar haqida qisqacha ta’rif beriladi.</p>
-        </a>
-        <a href="other_pages/spatial_information_about_field.html" class="img_block_box">
-          <?xml version="1.0" ?><svg
-            height="1792"
-            viewBox="0 0 1792 1792"
-            width="1792"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M896 768q237 0 443-43t325-127v170q0 69-103 128t-280 93.5-385 34.5-385-34.5-280-93.5-103-128v-170q119 84 325 127t443 43zm0 768q237 0 443-43t325-127v170q0 69-103 128t-280 93.5-385 34.5-385-34.5-280-93.5-103-128v-170q119 84 325 127t443 43zm0-384q237 0 443-43t325-127v170q0 69-103 128t-280 93.5-385 34.5-385-34.5-280-93.5-103-128v-170q119 84 325 127t443 43zm0-1152q208 0 385 34.5t280 93.5 103 128v128q0 69-103 128t-280 93.5-385 34.5-385-34.5-280-93.5-103-128v-128q0-69 103-128t280-93.5 385-34.5z"
-            />
-          </svg>
-          <h2>Sohaga oid fazoviy ma'lumotlar</h2>
-          <p>Bazaviy fazoviy Ma’lumotlar haqida qisqacha ta’rif beriladi.</p>
-        </a>
-    </div>
-    </div>
-    
-
-    <div class="main">
-      <div class="main_block1">
-        <div>
-          <h1>10</h1>
-          <p>Bazaviy ma’lumotlar soni</p>
-        </div>
-        <div>
-          <h1>20</h1>
-          <p>Kadastrlar soni</p>
-        </div>
-        <div>
-          <h1>121</h1>
-          <p>Qatlamlar soni</p>
-        </div>
-        <div>
-          <h1>1254</h1>
-          <p>Yuklanishlar Soni</p>
+            <?xml version="1.0" ?><svg
+              height="1792"
+              viewBox="0 0 1792 1792"
+              width="1792"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M896 768q237 0 443-43t325-127v170q0 69-103 128t-280 93.5-385 34.5-385-34.5-280-93.5-103-128v-170q119 84 325 127t443 43zm0 768q237 0 443-43t325-127v170q0 69-103 128t-280 93.5-385 34.5-385-34.5-280-93.5-103-128v-170q119 84 325 127t443 43zm0-384q237 0 443-43t325-127v170q0 69-103 128t-280 93.5-385 34.5-385-34.5-280-93.5-103-128v-170q119 84 325 127t443 43zm0-1152q208 0 385 34.5t280 93.5 103 128v128q0 69-103 128t-280 93.5-385 34.5-385-34.5-280-93.5-103-128v-128q0-69 103-128t280-93.5 385-34.5z"
+              />
+            </svg>
+            <h2>Sohaga oid fazoviy ma'lumotlar</h2>
+            <p>Bazaviy fazoviy Ma’lumotlar haqida qisqacha ta’rif beriladi.</p>
+          </a>
         </div>
       </div>
-      <div class="main_block2">
-        <h1>FMMI tizimi haqida ma’lumot</h1>
-        <p>
-          Our company has been the leading provided construction services to
-          clients throughout the USA since 1988.
-        </p>
-      </div>
-    </div>
 
-    <div class="main_footer">
-      <div class="main_footer_block1">
-        <div>
-          <h1>Address:</h1>
+      <div class="main">
+        <div class="main_block1">
+          <div>
+            <h1>10</h1>
+            <p>Bazaviy ma’lumotlar soni</p>
+          </div>
+          <div>
+            <h1>20</h1>
+            <p>Kadastrlar soni</p>
+          </div>
+          <div>
+            <h1>121</h1>
+            <p>Qatlamlar soni</p>
+          </div>
+          <div>
+            <h1>1254</h1>
+            <p>Yuklanishlar Soni</p>
+          </div>
+        </div>
+        <div class="main_block2">
+          <h1>FMMI tizimi haqida ma’lumot</h1>
           <p>
-            O'zbekiston, 100097, Toshkent sh, <br />
-            Chilonzor-S, Cho'ponota ko'chasi 6 V uy
+            Our company has been the leading provided construction services to
+            clients throughout the USA since 1988.
           </p>
         </div>
-        <div>
-          <h1>Phone:</h1>
-          <p>+998 71 202 55 62</p>
-        </div>
-        <div>
-          <h1>Email:</h1>
-          <p>FMMI@kadastr.uz</p>
-        </div>
-        <div>
-          <img src="./assets/logo.png" alt="" />
-        </div>
       </div>
-      <div class="main_footer_block2">
-        <div>
-          <h1>Bog’lanish uchun Raqamingizni qoldiring:</h1>
-          <div>
-            <input type="tel" placeholder="Telefon raqam" />
-            <button>Jo’natish</button>
-          </div>
-        </div>
 
-        <div>
-          <h2>Social:</h2>
+      <div class="main_footer">
+        <div class="main_footer_block1">
           <div>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              x="0px"
-              y="0px"
-              width="100"
-              height="100"
-              viewBox="0 0 50 50"
-            >
-              <path
-                d="M25,3C12.85,3,3,12.85,3,25c0,11.03,8.125,20.137,18.712,21.728V30.831h-5.443v-5.783h5.443v-3.848 c0-6.371,3.104-9.168,8.399-9.168c2.536,0,3.877,0.188,4.512,0.274v5.048h-3.612c-2.248,0-3.033,2.131-3.033,4.533v3.161h6.588 l-0.894,5.783h-5.694v15.944C38.716,45.318,47,36.137,47,25C47,12.85,37.15,3,25,3z"
-              ></path>
-            </svg>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              x="0px"
-              y="0px"
-              width="100"
-              height="100"
-              viewBox="0 0 50 50"
-            >
-              <path
-                d="M25,2C12.318,2,2,12.317,2,25s10.318,23,23,23s23-10.317,23-23S37.682,2,25,2z M18,35h-4V20h4V35z M16,17 c-1.105,0-2-0.895-2-2c0-1.105,0.895-2,2-2s2,0.895,2,2C18,16.105,17.105,17,16,17z M37,35h-4v-5v-2.5c0-1.925-1.575-3.5-3.5-3.5 S26,25.575,26,27.5V35h-4V20h4v1.816C27.168,20.694,28.752,20,30.5,20c3.59,0,6.5,2.91,6.5,6.5V35z"
-              ></path>
-            </svg>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              x="0px"
-              y="0px"
-              width="100"
-              height="100"
-              viewBox="0 0 50 50"
-            >
-              <path
-                d="M25,2C12.317,2,2,12.317,2,25s10.317,23,23,23s23-10.317,23-23S37.683,2,25,2z M36.237,20.524 c0.01,0.236,0.016,0.476,0.016,0.717C36.253,28.559,30.68,37,20.491,37c-3.128,0-6.041-0.917-8.491-2.489 c0.433,0.052,0.872,0.077,1.321,0.077c2.596,0,4.985-0.884,6.879-2.37c-2.424-0.044-4.468-1.649-5.175-3.847 c0.339,0.065,0.686,0.1,1.044,0.1c0.505,0,0.995-0.067,1.458-0.195c-2.532-0.511-4.441-2.747-4.441-5.432c0-0.024,0-0.047,0-0.07 c0.747,0.415,1.6,0.665,2.509,0.694c-1.488-0.995-2.464-2.689-2.464-4.611c0-1.015,0.272-1.966,0.749-2.786 c2.733,3.351,6.815,5.556,11.418,5.788c-0.095-0.406-0.145-0.828-0.145-1.262c0-3.059,2.48-5.539,5.54-5.539 c1.593,0,3.032,0.672,4.042,1.749c1.261-0.248,2.448-0.709,3.518-1.343c-0.413,1.292-1.292,2.378-2.437,3.064 c1.122-0.136,2.188-0.432,3.183-0.873C38.257,18.766,37.318,19.743,36.237,20.524z"
-              ></path>
-            </svg>
+            <h1>Address:</h1>
+            <p>
+              O'zbekiston, 100097, Toshkent sh, <br />
+              Chilonzor-S, Cho'ponota ko'chasi 6 V uy
+            </p>
+          </div>
+          <div>
+            <h1>Phone:</h1>
+            <p>+998 71 202 55 62</p>
+          </div>
+          <div>
+            <h1>Email:</h1>
+            <p>FMMI@kadastr.uz</p>
+          </div>
+          <div>
+            <img src="./assets/logo.png" alt="" />
+          </div>
+        </div>
+        <div class="main_footer_block2">
+          <div>
+            <h1>Bog’lanish uchun Raqamingizni qoldiring:</h1>
+            <div>
+              <input type="tel" placeholder="Telefon raqam" />
+              <button>Jo’natish</button>
+            </div>
+          </div>
+
+          <div>
+            <h2>Social:</h2>
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="100"
+                height="100"
+                viewBox="0 0 50 50"
+              >
+                <path
+                  d="M25,3C12.85,3,3,12.85,3,25c0,11.03,8.125,20.137,18.712,21.728V30.831h-5.443v-5.783h5.443v-3.848 c0-6.371,3.104-9.168,8.399-9.168c2.536,0,3.877,0.188,4.512,0.274v5.048h-3.612c-2.248,0-3.033,2.131-3.033,4.533v3.161h6.588 l-0.894,5.783h-5.694v15.944C38.716,45.318,47,36.137,47,25C47,12.85,37.15,3,25,3z"
+                ></path>
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="100"
+                height="100"
+                viewBox="0 0 50 50"
+              >
+                <path
+                  d="M25,2C12.318,2,2,12.317,2,25s10.318,23,23,23s23-10.317,23-23S37.682,2,25,2z M18,35h-4V20h4V35z M16,17 c-1.105,0-2-0.895-2-2c0-1.105,0.895-2,2-2s2,0.895,2,2C18,16.105,17.105,17,16,17z M37,35h-4v-5v-2.5c0-1.925-1.575-3.5-3.5-3.5 S26,25.575,26,27.5V35h-4V20h4v1.816C27.168,20.694,28.752,20,30.5,20c3.59,0,6.5,2.91,6.5,6.5V35z"
+                ></path>
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="100"
+                height="100"
+                viewBox="0 0 50 50"
+              >
+                <path
+                  d="M25,2C12.317,2,2,12.317,2,25s10.317,23,23,23s23-10.317,23-23S37.683,2,25,2z M36.237,20.524 c0.01,0.236,0.016,0.476,0.016,0.717C36.253,28.559,30.68,37,20.491,37c-3.128,0-6.041-0.917-8.491-2.489 c0.433,0.052,0.872,0.077,1.321,0.077c2.596,0,4.985-0.884,6.879-2.37c-2.424-0.044-4.468-1.649-5.175-3.847 c0.339,0.065,0.686,0.1,1.044,0.1c0.505,0,0.995-0.067,1.458-0.195c-2.532-0.511-4.441-2.747-4.441-5.432c0-0.024,0-0.047,0-0.07 c0.747,0.415,1.6,0.665,2.509,0.694c-1.488-0.995-2.464-2.689-2.464-4.611c0-1.015,0.272-1.966,0.749-2.786 c2.733,3.351,6.815,5.556,11.418,5.788c-0.095-0.406-0.145-0.828-0.145-1.262c0-3.059,2.48-5.539,5.54-5.539 c1.593,0,3.032,0.672,4.042,1.749c1.261-0.248,2.448-0.709,3.518-1.343c-0.413,1.292-1.292,2.378-2.437,3.064 c1.122-0.136,2.188-0.432,3.183-0.873C38.257,18.766,37.318,19.743,36.237,20.524z"
+                ></path>
+              </svg>
+            </div>
           </div>
         </div>
       </div>
-      
+      <div class="my_footer">
+        <h1>TheBox Company © 2022. All Rights Reserved</h1>
+      </div>
     </div>
-    <div class="my_footer">
-      <h1>TheBox Company © 2022. All Rights Reserved</h1>
-    </div>
-  </div>
 
     <script src="script.js"></script>
   </body>
