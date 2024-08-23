@@ -530,6 +530,12 @@ body {
   line-height: 24px;
 }
 
+.active .fa.fa-caret-down{
+  transform: rotate(180deg);
+  padding-right:0 ;
+  padding-left: 8px;
+}
+
 /* --------------lowGas_header-------------- */
 .lowGas {
   padding: 50px 100px;
