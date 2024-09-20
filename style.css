@@ -280,7 +280,7 @@ body {
 }
 
 .body {
-  margin-left: 300px;
+  margin-left: 360px;
 }
 
 /* ------------------------ */
@@ -350,7 +350,10 @@ body {
 /* Some media queries for responsiveness */
 .sidenav {
   padding-top: 15px;
-  margin-top: 105px;
+  margin-top: 150px;
+  box-shadow: rgba(0, 0, 0, 0.05) -4px 0px 8px; 
+  height: auto;
+  margin-left: 3rem;
 }
 .sidenav a {
   font-size: 15px;
