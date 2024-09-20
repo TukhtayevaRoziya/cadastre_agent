@@ -40,6 +40,8 @@ body {
   outline: none;
   padding: 0 10px;
   height: 40px;
+  width: 30%;
+
 }
 
 .btn_group button {
@@ -63,6 +65,7 @@ body {
 .btn_group button:last-child {
   border: 1px solid #dc3545;
   color: #dc3545;
+  display: none;
 }
 
 .img_block {
@@ -76,7 +79,7 @@ body {
   justify-content: center;
   align-items: center;
   padding-bottom: 40px;
-  margin-top: 3rem;
+  margin-top: 0;
 }
 
 .img_block_box_b {
@@ -332,6 +335,20 @@ body {
 
 .dropdown-container .dropdown-btn {
   padding-left: 20px;
+}
+
+.btn_group{
+  text-align: center;
+margin: 20px 0;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.btn_group img{
+  width: 30px;
+  margin: 0 10px;
+  cursor: pointer;
 }
 
 /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
