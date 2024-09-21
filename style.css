@@ -40,7 +40,7 @@ body {
   outline: none;
   padding: 0 10px;
   height: 40px;
-  width: 30%;
+  width: 40%;
 }
 
 .btn_group button {
@@ -567,7 +567,7 @@ body {
 
 /* --------------lowGas_header-------------- */
 .lowGas {
-  padding: 50px 100px;
+  padding: 0 100px 50px;
 }
 .lowGas_header {
   display: flex;
@@ -728,7 +728,7 @@ width: 70%;
 
   }
   .btn_group{
-    margin: 20px 0;
+    margin: 20px 0 0;
   }
   .main {
     padding: 80px 80px 20px;
