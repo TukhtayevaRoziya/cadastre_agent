@@ -41,7 +41,6 @@ body {
   padding: 0 10px;
   height: 40px;
   width: 30%;
-
 }
 
 .btn_group button {
@@ -281,21 +280,20 @@ body {
   font-size: 16px;
   font-weight: 400;
 }
-
+/* 
 .body {
   margin-left: 360px;
+} */
+
+.sidenav_body{
+  display: flex;
 }
 
 /* ------------------------ */
 
 /* Fixed sidenav, full height */
 .sidenav {
-  height: 100%;
   width: 300px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
   background-color: #fff;
   overflow-x: hidden;
   padding-top: 20px;
@@ -304,7 +302,7 @@ body {
 /* Style the sidenav links and the dropdown button */
 .sidenav a,
 .dropdown-btn {
-  padding: 6px 8px 6px 16px;
+  padding: 15px 8px 15px 16px;
   text-decoration: none;
   font-size: 15px;
   color: #818181;
@@ -337,15 +335,14 @@ body {
   padding-left: 20px;
 }
 
-.btn_group{
-  text-align: center;
-margin: 20px 0;
-display: flex;
-align-items: center;
-justify-content: center;
+.btn_group {
+  margin: 20px 0 20px 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.btn_group img{
+.btn_group img {
   width: 30px;
   margin: 0 10px;
   cursor: pointer;
@@ -367,14 +364,20 @@ justify-content: center;
 /* Some media queries for responsiveness */
 .sidenav {
   padding-top: 15px;
-  margin-top: 150px;
-  box-shadow: rgba(0, 0, 0, 0.05) -4px 0px 8px; 
+  /* margin-top: 150px; */
+  box-shadow: rgba(0, 0, 0, 0.05) -4px 0px 8px;
   height: auto;
   margin-left: 3rem;
+  margin-right: 1rem;
+
 }
 .sidenav a {
   font-size: 15px;
   width: 90%;
+}
+
+.body{
+  width: 72%;
 }
 
 /* ----------------basic_spatial_data---------------- */
@@ -720,6 +723,13 @@ justify-content: center;
 }
 
 @media screen and (max-width: 1000px) {
+  .btn_group input{
+width: 70%;
+
+  }
+  .btn_group{
+    margin: 20px 0;
+  }
   .main {
     padding: 80px 80px 20px;
   }
@@ -804,7 +814,7 @@ justify-content: center;
     border-top: 3px solid #052350;
   }
   .nav > .nav-links {
-    margin-top: 2rem;
+    margin-top: 1rem;
     position: absolute;
     display: block;
     width: 100%;
@@ -834,6 +844,7 @@ justify-content: center;
   /* -------main section */
   .body {
     margin: 0;
+    width: 100%;
   }
   .header {
     display: none;
@@ -956,6 +967,7 @@ justify-content: center;
   }
 }
 @media screen and (max-width: 660px) {
+  .btn_group,
   .btn_group input,
   .btn_group_1 {
     display: none;
